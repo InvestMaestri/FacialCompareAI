@@ -3,7 +3,7 @@ A test implementation of a Siamese Network for the comparison of two faces extra
 
 How it works:
 
-	The code implements a Siamese neural network for comparing facial images. It prepares image pairs, constructs a Siamese network architecture with shared convolutional layers, defines a custom contrastive loss function to train the network, and optimizes the model's weights using stochastic gradient descent. The network learns to differentiate between similar and dissimilar face pairs, and its training progress is visualized using loss and accuracy plots at the end of the training session.
+The code implements a Siamese neural network for comparing facial images. It prepares image pairs, constructs a Siamese network architecture with shared convolutional layers, defines a custom contrastive loss function to train the network, and optimizes the model's weights using stochastic gradient descent. The network learns to differentiate between similar and dissimilar face pairs, and its training progress is visualized using loss and accuracy plots at the end of the training session.
 
 The objective of this project was to implement the use of two identical networks that are run side by side, each on an image. The result is a similarity score (contrastive loss).
 
